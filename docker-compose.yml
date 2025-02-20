@@ -2,6 +2,8 @@ services:
   nginx:
     container_name: brutalisme
     image: nginx:1-alpine
+    networks:
+      - npm
     volumes:
       - ./.:/usr/share/nginx/html
   
