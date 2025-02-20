@@ -8,6 +8,5 @@ services:
       - ./.:/usr/share/nginx/html
   
 networks:
-  default:
+  name:
     external: true
-    name: npm
