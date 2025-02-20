@@ -8,5 +8,5 @@ services:
       - ./.:/usr/share/nginx/html
   
 networks:
-  name:
+  npm:
     external: true
