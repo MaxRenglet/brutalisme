@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+.yatra-one-regular {
+    font-family: "Yatra One", serif;
+    font-weight: 400;
+    font-style: normal;
+}
